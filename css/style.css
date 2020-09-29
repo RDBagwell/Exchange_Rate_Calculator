@@ -83,7 +83,9 @@ button:focus {
 .rate { 
     color: var(--promary-color);
     font-size: 14px;
+    font-weight: bold;
     padding: 0 10px;
+    text-align: right;
 }
 
 @media(max-width: 600px){

@@ -14,7 +14,7 @@ async function caclulate() {
         const res = await fetch(apiURL);
         const data = await res.json();
         const ex_rate = amountOne.value * data.rates[currentcy_two];
-        rate.textContent = `1 ${currentcy_one} = ${ex_rate} ${currentcy_two}`;
+        rate.textContent = `${amountOne.value} ${currentcy_one} = ${ex_rate} ${currentcy_two}`;
         amountTwo.value = ex_rate.toFixed(2);
     } catch (error) {
         console.log(error);
