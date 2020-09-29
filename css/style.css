@@ -71,7 +71,7 @@ p {
 input:focus,
 select:focus,
 button:focus {
-    outline: none;
+    outline: 0;
 }
 
 .swap-rate-container {
